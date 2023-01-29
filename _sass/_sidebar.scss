@@ -11,10 +11,10 @@
           transform: translate3d(0, 0 , 0);
 
   @include clearfix();
-  margin-bottom: 100em;
+  margin-bottom: 1em;
 
   @include breakpoint($large) {
-    @include span(2 of 14);
+    @include span(2 of 12);
     opacity: 1;
     -webkit-transition: opacity 0.2s ease-in-out;
             transition: opacity 0.2s ease-in-out;
@@ -26,7 +26,7 @@
 
 
   @include breakpoint($x-large) {
-    padding-right: 0;
+    padding-right: 1000;
   }
 
   h2, h3, h4, h5, h6 {
