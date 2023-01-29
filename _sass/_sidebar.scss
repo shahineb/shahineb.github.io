@@ -11,10 +11,10 @@
           transform: translate3d(0, 0 , 0);
 
   @include clearfix();
-  margin-bottom: 1em;
+  margin-bottom: 100em;
 
-  @include breakpoint($small) {
-    @include span(2 of 12);
+  @include breakpoint($large) {
+    @include span(2 of 14);
     opacity: 1;
     -webkit-transition: opacity 0.2s ease-in-out;
             transition: opacity 0.2s ease-in-out;
