@@ -4,7 +4,7 @@
  *  Square icons designed to be used alongside Font Awesome square icons - https://fortawesome.github.io/Font-Awesome/
  *  Licenses - Font: SIL OFL 1.1, CSS: MIT License
  */
-/* @font-face {
+@font-face {
     font-family: 'Academicons';
     src:url('../fonts/academicons.eot?v=1.8.0');
     src:url('../fonts/academicons.eot?v=1.8.0') format('embedded-opentype'),
@@ -207,9 +207,9 @@
 }
 .ai-zotero-square:before {
   content: "\e861";
-} */
+}
 /*  Duplication of the FontAwesome style classes using 'ai' in place of 'fa'. */
-/* .ai-lg {
+.ai-lg {
   font-size: 1.33333333em;
   line-height: 0.75em;
   vertical-align: -15%;
@@ -264,12 +264,12 @@
 }
 .ai.fa-pull-right {
   margin-left: .3em;
-} */
+}
 /*
  *  Repeat of the FontAwesome style classes to prevent override if academicons.css
  *  is called after font-awesome.css.
  */
-/* .fa-lg {
+.fa-lg {
   font-size: 1.33333333em;
   line-height: 0.75em;
   vertical-align: -15%;
@@ -324,4 +324,4 @@
 }
 .fa.fa-pull-right {
   margin-left: .3em;
-} */
+}
