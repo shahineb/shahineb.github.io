@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Shsh Bouabid"
 title_separator          : "-"
 name                     : &name "Shahine Bouabid"
-description              : &description "PhD candidate at University of Oxford"
+description              : &description "PhD candidate at the University of Oxford"
 url                      : https://shahineb.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "shahineb.github.io"
@@ -87,7 +87,7 @@ author:
   employer         :
   pubmed           :
   googlescholar    : "https://scholar.google.com/citations?user=bK-xIMcAAAAJ&hl=en&oi=ao"
-  email            : "shahine dot bouabid at stats dot ox dot ac dot uk"
+  email            : "shahine[dot]bouabid[at]stats.ox.ac.uk"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
