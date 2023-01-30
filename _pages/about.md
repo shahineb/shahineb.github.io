@@ -12,3 +12,5 @@ I am interested in developing simple and interpretable statistical machine learn
 
 
 I am supervised by [Dino Sejdinovic](https://sejdino.github.io/), [Athanasios Nenes](https://nenes.eas.gatech.edu/) and [Tom Rainforth](https://www.robots.ox.ac.uk/~twgr/).
+
+Please feel free to reach out at shahine[dot]bouabid[at]stats.ox.ac.uk.
