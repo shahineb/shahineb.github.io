@@ -27,10 +27,11 @@ a real-world atmospheric field downscaling problem, showing substantial improvem
 
 ```
 @article{chau2021deconditional,
-         title={Deconditional downscaling with gaussian processes},
-         author={Chau, Siu Lun and Bouabid, Shahine and Sejdinovic, Dino},
-         journal={Advances in Neural Information Processing Systems},
-         volume={34},
-         pages={17813--17825},
-         year={2021}
+  title={{Deconditional Downscaling with Gaussian processes}},
+  author={Chau, Siu Lun and Bouabid, Shahine and Sejdinovic, Dino},
+  journal={Advances in Neural Information Processing Systems},
+  volume={34},
+  pages={17813--17825},
+  year={2021}
+}
 ```
