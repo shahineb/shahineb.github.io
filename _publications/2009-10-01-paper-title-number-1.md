@@ -6,13 +6,13 @@ excerpt: 'Refining low-resolution (LR) spatial fields with high-resolution (HR) 
 date: 2021
 venue: 'dvances in Neural Information Processing Systems'
 paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: ```@article{chau2021deconditional,
-  title={Deconditional downscaling with gaussian processes},
-  author={Chau, Siu Lun and Bouabid, Shahine and Sejdinovic, Dino},
-  journal={Advances in Neural Information Processing Systems},
-  volume={34},
-  pages={17813--17825},
-  year={2021}```
+citation: "```@article{chau2021deconditional,
+              title={Deconditional downscaling with gaussian processes},
+              author={Chau, Siu Lun and Bouabid, Shahine and Sejdinovic, Dino},
+              journal={Advances in Neural Information Processing Systems},
+              volume={34},
+              pages={17813--17825},
+              year={2021}```"
 ---
 This paper is about the number 1. The number 2 is left for future work.
 
