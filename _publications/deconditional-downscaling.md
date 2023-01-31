@@ -3,6 +3,7 @@ title: 'Deconditional Downscaling with Gaussian processes'
 collection: publications
 permalink: /publication/deconditional-downscaling
 img: /images/deconditional-downscaling.png
+img_width: 200
 excerpt: ''
 date: 2021-05-27
 venue: 'Advances in Neural Information Processing Systems'
