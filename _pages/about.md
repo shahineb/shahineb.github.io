@@ -19,8 +19,7 @@ I am currently in the 3rd year of my PhD in the [Oxford Computational Statistics
 
 # Nechfate
 
-
-I am a co-creator [Nechfate](https://nechfate.ma/), an online media outlet that popularizes climate change, its impacts, and adaptation solutions in Morocco. For non-Arabic speakers, Nechfate refers initially to an aridification but also means a deterioration of economic conditions.
+I am a co-creator of [Nechfate](https://nechfate.ma/) [neʃfɛt], an online media outlet that popularizes climate change, its impacts, and adaptation solutions in Morocco. For non-Arabic speakers, Nechfate refers initially to an aridification but also means a deterioration of economic conditions.
 
 
 Through short, illustrated, and data-driven articles, our goal is to inform readers about Morocco's challenges in terms of Climate Change, Water & Agriculture, and Governance & Societ️y. Come check us out on [Instagram](https://www.instagram.com/nechfate/) and [Linkedin](https://www.linkedin.com/company/91686859/).
