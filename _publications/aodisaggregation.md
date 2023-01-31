@@ -1,9 +1,9 @@
 ---
 title: "AODisaggregation: toward global aerosol vertical profiles"
-collection: publications
+collection: preprint
 permalink: /publication/aodisaggregation
 img: /images/aodisaggregation.png
-img_width: 600
+img_width: 700
 excerpt: ''
 date: 2022-05-23
 venue: 'Preprint. Under review.'
@@ -14,7 +14,7 @@ citation:
 
 <center>
   <p align="center">
-    <img src="/images/aodisaggregation.png" alt="figure" width="600"/>
+    <img src="/images/aodisaggregation.png" alt="figure" width="700"/>
   </p>
 </center>
 
