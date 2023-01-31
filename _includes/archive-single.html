@@ -42,7 +42,7 @@
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'publications' %}
           {% if post.img %}
-            <div style="text-align: left;"><img style="float: left; padding: 0px 0px 0px 100px;" src="{{ post.img }}" alt="logo" height="150" width="200"></div>
+            <center><img src="{{ post.img }}" alt="logo" height="150" width="200"></center>
           {% endif %}
           <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.date %}
