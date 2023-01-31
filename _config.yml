@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Shsh Bouabid"
+title                    : "Home"
 title_separator          : "-"
 name                     : &name "Shahine Bouabid"
 description              : &description "PhD candidate at the University of Oxford"
