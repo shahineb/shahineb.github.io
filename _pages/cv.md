@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Resume"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -15,32 +15,21 @@ Education
 * M.S. in Vision and Learning (MVA), ENS Paris-Saclay, 2019
 * M.S. in Applied Mathematics, CentraleSupélec, 2019
 
+
 Work experience
 ======
-* Winter 2022-2023: Part-time Research Intern --- Met Office
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Winter 2022-2023: Part-time Research Intern --- Met Office, Exeter
+  * Subject: Bayesian quality control methods for citizen weather station data
+  * Supervisor: Dawn Harrison, Ed Pavelin
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Spring 2020: Research Intern --- Cervest, London
+  * Subject: Deep generative modelling for multiresolution remote sensing fusion
+  * Supervisor: Jevgenij Gamper, Maxime Rischard
 
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Summer 2019: Research Intern --- Deepomatic, Paris
+  * Subject: Mixup regularisation of object detection deep learning architectures
+  * Supervisor: Vincent Delaître
 
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
 
 Talks
 ======
