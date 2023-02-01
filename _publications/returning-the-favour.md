@@ -1,6 +1,7 @@
 ---
 title: "Returning The Favour: When Regression Benefits from Probabilistic Causal Knowledge"
-collection: preprint
+collection: publications
+preprint: True
 permalink: /publication/returning-the-favour
 excerpt: ''
 date: 2023-01-26

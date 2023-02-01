@@ -1,10 +1,11 @@
 ---
 title: 'Deconditional Downscaling with Gaussian processes'
 collection: publications
+preprint: False
 permalink: /publication/deconditional-downscaling
-img: /images/deconditional-downscaling.png
-img_width: 200
-excerpt: ''
+img:
+img_width:
+excerpt: 'Refining low-resolution (LR) spatial fields with high-resolution (HR) information, often known as statistical downscaling, is challenging as the diversity of spatial datasets often prevents direct matching of observations... Read More'
 date: 2021-05-27
 venue: 'Advances in Neural Information Processing Systems'
 paperurl:
