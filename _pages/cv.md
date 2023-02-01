@@ -40,13 +40,13 @@ Talks
 
 Teaching
 ======
-* 2021 Part A Statistics, Tutor --- Mansfield College, University of Oxford
-* 2022 Part A Statistics, Tutor --- Lady Margaret Hall, University of Oxford
-* 2022 Applied Statistics, Lab Assistant --- Department of Statistics, University of Oxford
-* 2022 Computational Statistics, Lab Assistant --- Department of Statistics, University of Oxford
-* 2022 Applied Probability, Teaching Assistant --- Department of Statistics, University of Oxford
+* Part A Statistics, Tutor --- Mansfield College, University of Oxford, 2021
+* Part A Statistics, Tutor --- Lady Margaret Hall, University of Oxford, 2022
+* Applied Statistics, Lab Assistant --- Department of Statistics, University of Oxford, 2022
+* Computational Statistics, Lab Assistant --- Department of Statistics, University of Oxford, 2022
+* Applied Probability, Teaching Assistant --- Department of Statistics, University of Oxford, 2022
 
 
 Program Committee
 =======
-* 2023: ICLR 2023 workshop on "Tackling Climate Change with Machine Learning"
+* 2023: ICLR workshop on "Tackling Climate Change with Machine Learning"
