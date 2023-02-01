@@ -6,8 +6,8 @@ main:
   - title: "Nechfate"
     url: https://nechfate.ma/
 
-  # - title: "Talks"
-  #   url: /talks/
+  - title: "Resume"
+    url: /cv/
   #
   # - title: "Teaching"
   #   url: /teaching/
