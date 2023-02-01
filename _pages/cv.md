@@ -19,8 +19,8 @@ Education
 Work experience
 ======
 * Winter 2022-2023: Part-time Research Intern --- Met Office, Exeter
-  * Subject: _Bayesian quality control methods for citizen weather station data_
-  * Supervisor: _Dawn Harrison, Ed Pavelin_
+  * _Subject_: Bayesian quality control methods for citizen weather station data
+  * _Supervisor_: Dawn Harrison, Ed Pavelin
 
 * Spring 2020: Research Intern --- Cervest, London
   * Subject: Deep generative modelling for multiresolution remote sensing fusion
@@ -37,8 +37,20 @@ Talks
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
 
+
 Teaching
 ======
-  <ul>{% for post in site.teaching %}
+* 2021 Part A Statistics, Tutor --- Mansfield College, University of Oxford
+* 2022 Part A Statistics, Tutor --- Lady Margaret Hall, University of Oxford
+* 2022 Applied Statistics, Lab Assistant --- Department of Statistics, University of Oxford
+* 2022 Computational Statistics, Lab Assistant --- Department of Statistics, University of Oxford
+* 2022 Applied Probability, Teaching Assistant --- Department of Statistics, University of Oxford
+
+  <!-- <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
+
+
+Program Committee
+=======
+* 2023: ICLR 2023 workshop on "Tackling Climate Change with Machine Learning"
