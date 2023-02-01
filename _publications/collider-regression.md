@@ -1,6 +1,6 @@
 ---
 title: "Returning The Favour: When Regression Benefits from Probabilistic Causal Knowledge"
-authors: 'S. Bouabid, J. Fawkes, and D. Sejdinovic'
+authors: 'S. Bouabid*, J. Fawkes*, and D. Sejdinovic'
 collection: publications
 preprint: True
 permalink: /publication/returning-the-favour
@@ -13,7 +13,7 @@ citation:
 
 <center>
   <p align="center">
-    <img src="/images/collider-regression.pdf" alt="figure" width="300"/>
+    <img src="/images/collider-regression-1.png" alt="figure" width="300"/>
   </p>
 </center>
 
@@ -23,7 +23,7 @@ A directed acyclic graph (DAG) provides valuable prior knowledge that is often d
 
 [Download pdf](https://arxiv.org/abs/2301.11214)
 
-[Github](https://github.com/shahineb/aodisaggregation)
+[Github](https://github.com/shahineb/collide-regression)
 
 ```
 @article{bouabid2023returning,

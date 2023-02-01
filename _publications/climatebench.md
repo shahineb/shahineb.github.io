@@ -3,7 +3,7 @@ title: "ClimateBench v1. 0: A Benchmark for Data‐Driven Climate Projections"
 authors: D. Watson-Parris, Y. Rao, D. Olivié, Ø. Seland, P. Nowack, G. Camp-Valls, P. Stier, S. Bouabid, M. Dewey, E. Fons, J. Gonzalez, P. Harder, K. Jeggle, J. Lenhardt, P. Manshausen, M. Novitasari, L. Ricard, C. Roesch
 collection: publications
 preprint: False
-permalink: /publication/returning-the-favour
+permalink: /publication/climatebench
 excerpt: 'Many different emission pathways exist that are compatible with the Paris climate agreement, and many more are possible that miss that target. While some of the most complex Earth System Models have simulated a small selection of Shared Socioeconomic Pathways,...'
 date: 2022-10-01
 venue: 'Journal of Advances in Modeling Earth Systems'
