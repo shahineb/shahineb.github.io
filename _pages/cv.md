@@ -19,16 +19,16 @@ Education
 Work experience
 ======
 * Part-time Research Intern --- Met Office, Exeter, 2023
-  * __Subject__: Bayesian quality control methods for citizen weather station data
-  * __Supervisor__: Dawn Harrison, Ed Pavelin
+  * _Subject_: Bayesian quality control methods for citizen weather station data
+  * _Supervisor_: Dawn Harrison, Ed Pavelin
 
 * Research Intern --- Cervest, London, 2020
-  * Subject: Deep generative modelling for multiresolution remote sensing fusion
-  * Supervisor: Jevgenij Gamper, Maxime Rischard
+  * _Subject_: Deep generative modelling for multiresolution remote sensing fusion
+  * _Supervisor_: Jevgenij Gamper, Maxime Rischard
 
 * Research Intern --- Deepomatic, Paris, 2019
-  * Subject: Mixup regularisation of object detection deep learning architectures
-  * Supervisor: Vincent Delaître
+  * _Subject_: Mixup regularisation of object detection deep learning architectures
+  * _Supervisor_: Vincent Delaître
 
 
 Talks

@@ -3,11 +3,11 @@ main:
   - title: "Publications"
     url: /publications/
 
-  - title: "Nechfate"
-    url: https://nechfate.ma/
-
   - title: "Resume"
     url: /cv/
+
+  - title: "Nechfate"
+    url: https://nechfate.ma/
   #
   # - title: "Teaching"
   #   url: /teaching/
