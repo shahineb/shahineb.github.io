@@ -1,9 +1,9 @@
 ---
-title: "Bayesian reconstructing of aerosol vertical profile"
+title: "A simple Bayesian model to reconstruct aerosols vertical profiles"
 collection: talks
 type: "Talk"
 permalink: /talks/imiracli-spring-school
-venue: "Spring School iMiracli 2022"
+venue: "spring School iMiracli 2022"
 date: 2022-05-01
 location: "Vienna, Austria"
 ---

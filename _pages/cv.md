@@ -19,8 +19,8 @@ Education
 Work experience
 ======
 * Winter 2022-2023: Part-time Research Intern --- Met Office, Exeter
-  * Subject: Bayesian quality control methods for citizen weather station data
-  * Supervisor: Dawn Harrison, Ed Pavelin
+  * Subject: _Bayesian quality control methods for citizen weather station data_
+  * Supervisor: _Dawn Harrison, Ed Pavelin_
 
 * Spring 2020: Research Intern --- Cervest, London
   * Subject: Deep generative modelling for multiresolution remote sensing fusion

@@ -3,7 +3,7 @@ title: "Deconditional Downscaling with Gaussian processes"
 collection: talks
 type: "Talk"
 permalink: /talks/ucl-deconditional-downscaling
-venue: "UCL      "
+venue: "UCL Statistical Machine Learning Group"
 date: 2022-02-24
 location: "London, UK"
 ---
