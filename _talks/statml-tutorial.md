@@ -1,0 +1,11 @@
+---
+title: "Tutorial on Introduction to PyTorch"
+collection: talks
+type: "Tutorial"
+permalink: /talks/pytorch-tutorial
+venue: "StatML CDT"
+date: 2021-05-01
+location: "Oxford, UK"
+---
+
+[Link to tutorial](https://github.com/shahineb/statml-cdt-pytorch-tutorial)
