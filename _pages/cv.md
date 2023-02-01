@@ -18,15 +18,15 @@ Education
 
 Work experience
 ======
-* Winter 2022-2023: Part-time Research Intern --- Met Office, Exeter
+* Part-time Research Intern --- Met Office, Exeter, 2023
   * _Subject_: Bayesian quality control methods for citizen weather station data
   * _Supervisor_: Dawn Harrison, Ed Pavelin
 
-* Spring 2020: Research Intern --- Cervest, London
+* Research Intern --- Cervest, London, 2020
   * Subject: Deep generative modelling for multiresolution remote sensing fusion
   * Supervisor: Jevgenij Gamper, Maxime Rischard
 
-* Summer 2019: Research Intern --- Deepomatic, Paris
+* Research Intern --- Deepomatic, Paris, 2019
   * Subject: Mixup regularisation of object detection deep learning architectures
   * Supervisor: Vincent Delaître
 
@@ -45,10 +45,6 @@ Teaching
 * 2022 Applied Statistics, Lab Assistant --- Department of Statistics, University of Oxford
 * 2022 Computational Statistics, Lab Assistant --- Department of Statistics, University of Oxford
 * 2022 Applied Probability, Teaching Assistant --- Department of Statistics, University of Oxford
-
-  <!-- <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul> -->
 
 
 Program Committee
