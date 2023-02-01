@@ -1,5 +1,6 @@
 ---
 title: 'Deconditional Downscaling with Gaussian processes'
+authors: 'S. L. Chau*, S. Bouabid*, and D. Sejdinovic'
 collection: publications
 preprint: False
 permalink: /publication/deconditional-downscaling
