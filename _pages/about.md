@@ -1,7 +1,7 @@
 ---
 permalink: /
-title: "¶ Research"
-excerpt: "Research"
+title: "Research"
+excerpt: "Research ¶"
 author_profile: true
 redirect_from:
   - /about/
@@ -17,7 +17,7 @@ I am currently in the 3rd year of my PhD in the [Oxford Computational Statistics
 
 
 
-# ¶ Nechfate
+# Nechfate ¶
 
 I am a co-creator of [Nechfate](https://nechfate.ma/) [neʃfɛt], an online media that popularizes climate change, its impacts, and adaptation solutions in Morocco. For non-Arabic speakers, Nechfate refers initially to an aridification but also means a deterioration of economic conditions.
 
