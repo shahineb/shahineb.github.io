@@ -1,13 +1,14 @@
 ---
 permalink: /
-title: "Research"
-excerpt: "Research ¶"
+title: ""
+excerpt: ""
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
 
+# Research ¶
 
 I am interested in developing simple and interpretable statistical machine learning methodologies to address challenges that arise in climate science. My recent work has focused on statistical downscaling and earth system emulation using physically-constrained models. The tools I use mostly draw from the theory of reproducing kernel Hilbert spaces and Gaussian processes, for which I enjoy a fond theoretical interest.
 
