@@ -50,3 +50,4 @@ Teaching
 Program Committee
 =======
 * 2023: ICLR workshop on "Tackling Climate Change with Machine Learning"
+* 2023: NeurIPS workshop on "Tackling Climate Change with Machine Learning"
