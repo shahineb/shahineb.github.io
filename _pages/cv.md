@@ -16,8 +16,16 @@ Education
 * M.S. in Applied Mathematics, CentraleSupélec, 2019
 
 
-Work experience
+Research experience
 ======
+* Visiting Research Student --- CISPA, Saarbrücken, 2023
+  * _Subject_: Generalisation guarantees from encoding linear domain knowledge in regression
+  * _Supervisor_: Krikamol Muandet
+
+* Visiting Research Student --- University of Valencia, Valencia, 2023
+  * _Subject_: Koopman mode decomposition with control for climate impact emulation
+  * _Supervisor_: Gustau Camps-Valls
+
 * Part-time Research Intern --- Met Office, Exeter, 2023
   * _Subject_: Bayesian quality control methods for citizen weather station data
   * _Supervisor_: Dawn Harrison, Ed Pavelin
@@ -47,7 +55,8 @@ Teaching
 * Applied Probability, Teaching Assistant --- Department of Statistics, University of Oxford, 2022
 
 
-Program Committee
+Peer Review
 =======
 * 2023: ICLR workshop on "Tackling Climate Change with Machine Learning"
 * 2023: NeurIPS workshop on "Tackling Climate Change with Machine Learning"
+* Earth System Dynamics journal
