@@ -14,7 +14,7 @@ citation:
 
 <center>
   <p align="center">
-    <img src="/images/fairgp.jpg" alt="figure" width="700"/>
+    <img src="/images/fairgp-logo.png" alt="figure" width="400"/>
   </p>
 </center>
 
