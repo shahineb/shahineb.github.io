@@ -4,7 +4,7 @@ authors: 'S. Bouabid, D. Sejdinovic and D. Watson-Parris'
 collection: publications
 preprint: False
 permalink: /publication/fairgp
-excerpt: 'Emulators, or reduced complexity climate models, are surrogate Earth system models that produce projections of key climate quantities with minimal computational resources. Using time-series modelling or more advanced machine learning techniques data-driven emulators have emerged [...]'
+excerpt:
 date: 2024-06-07
 venue: 'Journal of Advances in Modeling Earth Systems'
 paperurl:

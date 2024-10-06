@@ -4,7 +4,7 @@ authors: D. Watson-Parris, Y. Rao, D. Olivié, Ø. Seland, P. Nowack, G. Camp-Va
 collection: publications
 preprint: False
 permalink: /publication/climatebench
-excerpt: 'Many different emission pathways exist that are compatible with the Paris climate agreement, and many more are possible that miss that target. While some of the most complex Earth System Models have simulated a small selection of Shared Socioeconomic Pathways, [...]'
+excerpt:
 date: 2022-10-01
 venue: 'Journal of Advances in Modeling Earth Systems'
 paperurl:

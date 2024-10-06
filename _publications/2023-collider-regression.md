@@ -4,7 +4,7 @@ authors: 'S. Bouabid*, J. Fawkes*, and D. Sejdinovic'
 collection: publications
 preprint: False
 permalink: /publication/returning-the-favour
-excerpt: 'A directed acyclic graph (DAG) provides valuable prior knowledge that is often discarded in regression tasks in machine learning. We show that the independences arising from the presence of collider structures in DAGs provide meaningful inductive biases, [...]'
+excerpt:
 date: 2023-01-26
 venue: 'International Conference on Machine Learning'
 paperurl:

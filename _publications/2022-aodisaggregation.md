@@ -6,7 +6,7 @@ preprint: False
 permalink: /publication/aodisaggregation
 img:
 img_width:
-excerpt: 'Aerosol-cloud interactions constitute the largest source of uncertainty in assessments of the anthropogenic climate change. This uncertainty arises in part from the difficulty in measuring the vertical distributions of aerosols, and only sporadic vertically resolved observations are available [...]'
+excerpt:
 date: 2024-09-16
 venue: 'Environmental Data Science'
 paperurl:
