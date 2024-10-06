@@ -4,7 +4,7 @@ authors: 'S. Bouabid, D. Sejdinovic and D. Watson-Parris'
 collection: publications
 preprint: False
 permalink: /publication/fairgp
-excerpt:
+excerpt: ''
 date: 2024-06-07
 venue: 'Journal of Advances in Modeling Earth Systems'
 paperurl:

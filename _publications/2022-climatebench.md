@@ -4,7 +4,7 @@ authors: D. Watson-Parris, Y. Rao, D. Olivié, Ø. Seland, P. Nowack, G. Camp-Va
 collection: publications
 preprint: False
 permalink: /publication/climatebench
-excerpt:
+excerpt: ''
 date: 2022-10-01
 venue: 'Journal of Advances in Modeling Earth Systems'
 paperurl:

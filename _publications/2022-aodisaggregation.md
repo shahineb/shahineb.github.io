@@ -6,7 +6,7 @@ preprint: False
 permalink: /publication/aodisaggregation
 img:
 img_width:
-excerpt:
+excerpt: ''
 date: 2024-09-16
 venue: 'Environmental Data Science'
 paperurl:

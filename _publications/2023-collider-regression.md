@@ -4,7 +4,7 @@ authors: 'S. Bouabid*, J. Fawkes*, and D. Sejdinovic'
 collection: publications
 preprint: False
 permalink: /publication/returning-the-favour
-excerpt:
+excerpt: ''
 date: 2023-01-26
 venue: 'International Conference on Machine Learning'
 paperurl:
