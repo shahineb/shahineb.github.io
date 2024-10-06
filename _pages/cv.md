@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Statistics, University of Oxford, 2024 (expected)
+* Ph.D in Statistics, University of Oxford, 2024
 * M.S. in Vision and Learning (MVA), ENS Paris-Saclay, 2019
 * M.S. in Applied Mathematics, CentraleSupélec, 2019
 

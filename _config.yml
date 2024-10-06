@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Home"
 title_separator          : "-"
 name                     : &name "Shahine Bouabid"
-description              : &description "PhD candidate at the University of Oxford"
+description              : &description "Postdoctoral associate at MIT EAPS"
 url                      : https://shahineb.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "shahineb.github.io"
@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Shahine Bouabid"
   avatar           : "profile.jpg"
-  bio              : "PhD candidate at the University of Oxford"
+  bio              : "Postdoctoral associate at MIT EAPS"
   location         :
   employer         :
   pubmed           :
   googlescholar    : "https://scholar.google.com/citations?user=bK-xIMcAAAAJ&hl=en&oi=ao"
-  email            : "shahine[dot]bouabid[at]stats.ox.ac.uk"
+  email            : "shahineb[at]mit[dot]edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
