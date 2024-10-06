@@ -4,8 +4,7 @@ authors: 'A. Singh, S. L. Chau, S. Bouabid, and K. Muandet'
 collection: publications
 preprint: False
 permalink: /publication/imprecise-domain-generalisation
-img:
-img_width:
+excerpt: ''
 date: 2024-07-27
 venue: 'International Conference on Machine Learning'
 paperurl:
