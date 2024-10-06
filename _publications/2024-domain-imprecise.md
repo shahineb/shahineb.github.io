@@ -7,7 +7,7 @@ permalink: /publication/imprecise-domain-generalisation
 img:
 img_width:
 date: 2024-07-27
-venue: 'Advances in Neural Information Processing Systems'
+venue: 'International Conference on Machine Learning'
 paperurl:
 citation:
 ---
