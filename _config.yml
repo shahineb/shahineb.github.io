@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Home"
+title                    : "SB"
 title_separator          : "-"
 name                     : &name "Shahine Bouabid"
 description              : &description "Postdoctoral associate at MIT EAPS"
