@@ -12,7 +12,7 @@ redirect_from:
 
 I am interested in the development of emulators of climate models that support efforts to make climate change projections more accessible, improve uncertainty quantification on impacts, and reduce the computational cost of climate modelling.
 
-I am currently a postdoctoral associate at [MIT EAPS](https://eaps.mit.edu/) working with [Noelle Selin](https://www.selingroup.org/noelle-eckley-selin) and [Raffaele Ferrari](http://ferrari.mit.edu/). I completed my PhD from the [Department of Statistics](https://www.stats.ox.ac.uk/) at the University of Oxford, supervised by [Dino Sejdinovic](https://sejdino.github.io/) as part of the [iMiracli](https://imiracli.web.ox.ac.uk/) innovative training network of aerosols-cloud interactions and machine learning.
+I am currently a postdoctoral associate at [EAPS](https://eaps.mit.edu/) working with [Noelle Selin](https://www.selingroup.org/noelle-eckley-selin) and [Raffaele Ferrari](http://ferrari.mit.edu/) as part of the [BC3 MIT Climate Grand Challenge](https://bc3.mit.edu/). I completed my PhD from the [Department of Statistics](https://www.stats.ox.ac.uk/) at the University of Oxford, supervised by [Dino Sejdinovic](https://sejdino.github.io/) as part of the [iMiracli](https://imiracli.web.ox.ac.uk/) innovative training network of aerosols-cloud interactions and machine learning.
 
 
 
