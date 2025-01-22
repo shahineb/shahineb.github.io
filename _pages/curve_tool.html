@@ -9,7 +9,7 @@ author_profile: false
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interactive Curve Drawing with Right Pane</title>
+    <title>Interative FaIR projection</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -76,9 +76,9 @@ author_profile: false
         <canvas id="timeSeriesChart"></canvas>
     </div>
     <div id="controls">
-        <button id="saveCurve">Save Curve</button>
-        <button id="clearCanvas">Clear Canvas</button>
-        <button id="undoAction">Undo</button>
+        <button id="saveCurve">Project</button>
+        <button id="clearCanvas">Clear</button>
+        <button id="undoAction">Ctrl+Z</button>
     </div>
     <div id="tooltip"></div>
     <script>
@@ -223,7 +223,7 @@ author_profile: false
 
         function displayTooltip(clientX, clientY, point) {
             const year = 0.223214 * point.x + 1982.4;
-            const CO2 = -0.33195 * point.y + 114.9377;
+            const CO2 = -0.1986754966887417 * point.y + 49.0728476821192;
 
             tooltip.style.display = 'block';
             tooltip.style.left = `${clientX + 10}px`;
@@ -263,7 +263,7 @@ author_profile: false
 
         function drawGrid() {
             const labelsX = [2000, 2020, 2040, 2060, 2080, 2100];
-            const labelsY = [0, 20, 40, 60, 80, 100];
+            const labelsY = [-20, -10, 0, 10, 20, 30, 40];
             const paddingX = 80;
             const paddingY = 50;
 
@@ -309,7 +309,7 @@ author_profile: false
             ctx.font = "18px Arial";
             ctx.textAlign = "right";
 
-            const labels = [0, 20, 40, 60, 80, 100];
+            const labels = [-20, -10, 0, 10, 20, 30, 40];
             const padding = 50;
             const labelPositions = labels.map(
                 (value, i) => canvas.height / window.devicePixelRatio - padding - (i / (labels.length - 1)) * (canvas.height / window.devicePixelRatio - 2 * padding)
@@ -414,7 +414,7 @@ author_profile: false
             let csvContent = "year,CO2\n";
             interpolatedPoints.forEach(point => {
                 const year = 0.223214 * point.x + 1982.4;
-                const CO2 = -0.33195 * point.y + 114.9377;
+                const CO2 = -0.1986754966887417 * point.y + 49.0728476821192;
                 csvContent += `${year.toFixed(2)},${CO2.toFixed(2)}\n`;
             });
 
@@ -422,7 +422,7 @@ author_profile: false
             const formData = new FormData();
             formData.append('file', blob, 'curve_data.csv');
 
-            fetch('http://127.0.0.1:5000/process', {
+            fetch('https://fair-web-app.onrender.com/process', {
                 method: 'POST',
                 body: formData
             })
