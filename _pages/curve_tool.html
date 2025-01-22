@@ -413,7 +413,7 @@ author_profile: false
 
             let csvContent = "year,CO2\n";
             interpolatedPoints.forEach(point => {
-                const year = 0.223214 * point.x + 1987.5;
+                const year = 0.223214 * point.x + 1982.4;
                 const CO2 = -0.33195 * point.y + 114.9377;
                 csvContent += `${year.toFixed(2)},${CO2.toFixed(2)}\n`;
             });
