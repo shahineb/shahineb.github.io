@@ -1,0 +1,449 @@
+---
+layout: none
+permalink: /curve/
+title: ""
+author_profile: false
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Curve Drawing with Right Pane</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        #mainContainer {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            width: 100%;
+        }
+        canvas {
+            flex: 3; /* Give canvas more space */
+            max-width: calc(40%); /* Allow canvas to occupy 70% of the width */
+            height: 100%;
+            border: 1px solid #ccc;
+            background-color: white;
+            cursor: crosshair;
+        }
+        #controls {
+            margin-top: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            margin: 5px;
+            border: none;
+            background-color: #007BFF;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        #tooltip {
+            position: absolute;
+            background: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 5px;
+            border-radius: 3px;
+            font-size: 12px;
+            pointer-events: none;
+            display: none;
+        }
+        #timeSeriesChart {
+            flex: 1;
+            max-width: 40%;
+            height: 100%;
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1>Interactive Curve Drawing with Right Pane</h1>
+    <div id="mainContainer">
+        <canvas id="curveCanvas"></canvas>
+        <canvas id="timeSeriesChart"></canvas>
+    </div>
+    <div id="controls">
+        <button id="saveCurve">Save Curve</button>
+        <button id="clearCanvas">Clear Canvas</button>
+        <button id="undoAction">Undo</button>
+    </div>
+    <div id="tooltip"></div>
+    <script>
+        // Canvas code as-is from the original implementation
+        const canvas = document.getElementById('curveCanvas');
+        const ctx = canvas.getContext('2d');
+        const saveButton = document.getElementById('saveCurve');
+        const clearButton = document.getElementById('clearCanvas');
+        const undoButton = document.getElementById('undoAction');
+        const tooltip = document.getElementById('tooltip');
+        const timeSeriesCanvas = document.getElementById('timeSeriesChart');
+        let timeSeriesChart;
+
+        let points = [];
+        let history = [];
+        let draggingPoint = null;
+        let hoveredPoint = null;
+        let newPointIndex = null;
+
+        function adjustCanvasResolution() {
+            const dpr = window.devicePixelRatio || 1;
+            const rect = canvas.getBoundingClientRect();
+            const timeSeriesRect = timeSeriesCanvas.getBoundingClientRect();
+            canvas.width = rect.width * dpr;
+            canvas.height = rect.height * dpr;
+            timeSeriesCanvas.width = timeSeriesRect.width * dpr;
+            timeSeriesCanvas.height = timeSeriesRect.height * dpr;
+            ctx.scale(dpr, dpr);
+            drawCurve();
+        }
+
+        function initializeCanvas() {
+            canvas.style.width = "800px";
+            canvas.style.height = "400px";
+            timeSeriesCanvas.style.width = "800px"; 
+            timeSeriesCanvas.style.height = "400px";
+            adjustCanvasResolution();
+        }
+
+        window.addEventListener('resize', () => {
+            adjustCanvasResolution();
+        });
+
+        canvas.addEventListener('mousedown', (e) => {
+            saveToHistory();
+            const mousePos = getMousePos(e);
+            const pointIndex = getPointIndexAt(mousePos);
+
+            if (pointIndex !== -1) {
+                draggingPoint = pointIndex;
+                displayTooltip(e.clientX, e.clientY, points[draggingPoint]);
+            } else {
+                const newPoint = mousePos;
+                points.push(newPoint);
+                newPointIndex = points.length - 1;
+                draggingPoint = newPointIndex;
+                displayTooltip(e.clientX, e.clientY, newPoint);
+                drawCurve();
+            }
+        });
+
+        canvas.addEventListener('mousemove', (e) => {
+            const mousePos = getMousePos(e);
+
+            if (draggingPoint !== null) {
+                points[draggingPoint] = mousePos;
+                displayTooltip(e.clientX, e.clientY, points[draggingPoint]);
+                drawCurve();
+                return;
+            }
+
+            const pointIndex = getPointIndexAt(mousePos);
+            if (pointIndex !== -1) {
+                hoveredPoint = pointIndex;
+                canvas.style.cursor = "pointer";
+                displayTooltip(e.clientX, e.clientY, points[hoveredPoint]);
+            } else {
+                hoveredPoint = null;
+                canvas.style.cursor = "crosshair";
+
+                const hoveredCurvePoint = getPointOnCurve(mousePos);
+                if (hoveredCurvePoint) {
+                    displayTooltip(e.clientX, e.clientY, hoveredCurvePoint);
+                } else {
+                    tooltip.style.display = 'none';
+                }
+            }
+
+            drawCurve();
+        });
+
+        canvas.addEventListener('mouseup', () => {
+            draggingPoint = null;
+            newPointIndex = null;
+            tooltip.style.display = 'none';
+        });
+
+        undoButton.addEventListener('click', undoAction);
+
+        document.addEventListener('keydown', (e) => {
+            if ((e.ctrlKey || e.metaKey) && e.key === 'z') {
+                e.preventDefault();
+                undoAction();
+            }
+        });
+
+        function undoAction() {
+            if (history.length > 0) {
+                points = history.pop();
+                drawCurve();
+            }
+        }
+
+        function saveToHistory() {
+            history.push([...points.map(point => ({ ...point }))]);
+        }
+
+        function getMousePos(event) {
+            const rect = canvas.getBoundingClientRect();
+            return {
+                x: event.clientX - rect.left,
+                y: event.clientY - rect.top,
+            };
+        }
+
+        function getPointIndexAt(pos, radius = 10) {
+            return points.findIndex(
+                (point) => Math.hypot(point.x - pos.x, point.y - pos.y) < radius
+            );
+        }
+
+        function getPointOnCurve(pos, threshold = 5) {
+            const interpolatedPoints = cubicInterpolation(points);
+            for (let i = 0; i < interpolatedPoints.length; i++) {
+                const canvasPoint = interpolatedPoints[i];
+                if (Math.hypot(canvasPoint.x - pos.x, canvasPoint.y - pos.y) < threshold) {
+                    return canvasPoint;
+                }
+            }
+            return null;
+        }
+
+        function displayTooltip(clientX, clientY, point) {
+            const year = 0.223214 * point.x + 1982.4;
+            const CO2 = -0.33195 * point.y + 114.9377;
+
+            tooltip.style.display = 'block';
+            tooltip.style.left = `${clientX + 10}px`;
+            tooltip.style.top = `${clientY + 10}px`;
+            tooltip.innerHTML = `Year: ${year.toFixed(1)}, CO2: ${CO2.toFixed(1)} GtCO2/yr`;
+        }
+
+        function drawPoint(point, isHovered = false) {
+            ctx.beginPath();
+            ctx.arc(point.x, point.y, 5, 0, Math.PI * 2);
+            ctx.fillStyle = isHovered ? "blue" : "black";
+            ctx.fill();
+        }
+
+        function drawCurve() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            drawGrid();
+            drawXAxis();
+            drawYAxis();
+
+            points.forEach((point, index) => {
+                drawPoint(point, index === hoveredPoint);
+            });
+
+            if (points.length < 2) return;
+
+            const interpolatedPoints = cubicInterpolation(points);
+
+            ctx.beginPath();
+            ctx.moveTo(interpolatedPoints[0].x, interpolatedPoints[0].y);
+            for (let i = 1; i < interpolatedPoints.length; i++) {
+                ctx.lineTo(interpolatedPoints[i].x, interpolatedPoints[i].y);
+            }
+            ctx.strokeStyle = "black";
+            ctx.stroke();
+        }
+
+        function drawGrid() {
+            const labelsX = [2000, 2020, 2040, 2060, 2080, 2100];
+            const labelsY = [0, 20, 40, 60, 80, 100];
+            const paddingX = 80;
+            const paddingY = 50;
+
+            labelsX.forEach((_, i) => {
+                const x = paddingX + (i / (labelsX.length - 1)) * (canvas.width / window.devicePixelRatio - 2 * paddingX);
+                ctx.beginPath();
+                ctx.moveTo(x, 0);
+                ctx.lineTo(x, canvas.height / window.devicePixelRatio - 30);
+                ctx.strokeStyle = "#ddd";
+                ctx.stroke();
+            });
+
+            labelsY.forEach((_, i) => {
+                const y = canvas.height / window.devicePixelRatio - paddingY - (i / (labelsY.length - 1)) * (canvas.height / window.devicePixelRatio - 2 * paddingY) - 5;
+                ctx.beginPath();
+                ctx.moveTo(60, y);
+                ctx.lineTo(canvas.width / window.devicePixelRatio, y);
+                ctx.strokeStyle = "#ddd";
+                ctx.stroke();
+            });
+        }
+
+        function drawXAxis() {
+            ctx.fillStyle = "black";
+            ctx.font = "18px Arial";
+            ctx.textAlign = "center";
+
+            const labels = [2000, 2020, 2040, 2060, 2080, 2100];
+            const padding = 80;
+            const labelPositions = labels.map(
+                (year, i) => padding + (i / (labels.length - 1)) * (canvas.width / window.devicePixelRatio - 2 * padding)
+            );
+
+            labels.forEach((label, i) => {
+                const x = labelPositions[i];
+                const y = canvas.height / window.devicePixelRatio - 10;
+                ctx.fillText(label, x, y);
+            });
+        }
+
+        function drawYAxis() {
+            ctx.fillStyle = "black";
+            ctx.font = "18px Arial";
+            ctx.textAlign = "right";
+
+            const labels = [0, 20, 40, 60, 80, 100];
+            const padding = 50;
+            const labelPositions = labels.map(
+                (value, i) => canvas.height / window.devicePixelRatio - padding - (i / (labels.length - 1)) * (canvas.height / window.devicePixelRatio - 2 * padding)
+            );
+
+            labels.forEach((label, i) => {
+                const x = 50;
+                const y = labelPositions[i];
+                ctx.fillText(label, x, y);
+            });
+
+            ctx.save();
+            ctx.translate(20, canvas.height / (2 * window.devicePixelRatio));
+            ctx.rotate(-Math.PI / 2);
+            ctx.textAlign = "center";
+            ctx.fillText("GtCO2/yr", 0, 0);
+            ctx.restore();
+        }
+
+        function cubicInterpolation(points, numSteps = 100) {
+            const interpolatedPoints = [];
+            for (let i = 0; i < points.length - 1; i++) {
+                const p0 = i > 0 ? points[i - 1] : points[i];
+                const p1 = points[i];
+                const p2 = points[i + 1];
+                const p3 = i < points.length - 2 ? points[i + 2] : points[i + 1];
+
+                for (let t = 0; t <= numSteps; t++) {
+                    const tNorm = t / numSteps;
+                    const x = cubicHermite(p0.x, p1.x, p2.x, p3.x, tNorm);
+                    const y = cubicHermite(p0.y, p1.y, p2.y, p3.y, tNorm);
+                    interpolatedPoints.push({ x, y });
+                }
+            }
+            return interpolatedPoints;
+        }
+
+        function cubicHermite(p0, p1, p2, p3, t) {
+            const a = -0.5 * p0 + 1.5 * p1 - 1.5 * p2 + 0.5 * p3;
+            const b = p0 - 2.5 * p1 + 2 * p2 - 0.5 * p3;
+            const c = -0.5 * p0 + 0.5 * p2;
+            const d = p1;
+
+            return a * t ** 3 + b * t ** 2 + c * t + d;
+        }
+
+        function plotTimeSeries(years, co2) {
+            if (timeSeriesChart) {
+                timeSeriesChart.data.labels = years;
+                timeSeriesChart.data.datasets[0].data = co2;
+                timeSeriesChart.update();
+            } else {
+                const ctx = timeSeriesCanvas.getContext('2d');
+                timeSeriesChart = new Chart(ctx, {
+                    type: 'line',
+                    data: {
+                        labels: years,
+                        datasets: [{
+                            label: 'ΔT (C)',
+                            data: co2,
+                            borderColor: 'orange',
+                            borderWidth: 0.5,
+                            backgroundColor: 'rgba(255, 165, 0, 0.2)',
+                            pointRadius: 1, // Size of the dots (smaller than default)
+                            pointHoverRadius: 5, // Size of the dots when hovered
+                            pointBackgroundColor: 'orange', // Dot color
+                            pointBorderColor: 'orange', // Border color of dots
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: {
+                            legend: {
+                                display: false // Disable the legend
+                            }
+                        },
+                        scales: {
+                            x: { title: { display: true, text: 'Year', color: 'black', font: {size: 18}},
+                                 ticks: { color: 'black', font: {size: 16}}
+                            },
+                            y: { title: { display: true, text: 'ΔT (C)', color: 'black', font: {size: 18}},
+                                 ticks: { color: 'black', font: {size: 16}}
+                            }
+                        }
+                    }
+                });
+            }
+        }
+
+
+        clearButton.addEventListener('click', () => {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            points = [];
+            history = [];
+            tooltip.style.display = 'none';
+        });
+
+        saveButton.addEventListener('click', () => {
+            const interpolatedPoints = cubicInterpolation(points);
+
+            let csvContent = "year,CO2\n";
+            interpolatedPoints.forEach(point => {
+                const year = 0.223214 * point.x + 1987.5;
+                const CO2 = -0.33195 * point.y + 114.9377;
+                csvContent += `${year.toFixed(2)},${CO2.toFixed(2)}\n`;
+            });
+
+            const blob = new Blob([csvContent], { type: 'text/csv' });
+            const formData = new FormData();
+            formData.append('file', blob, 'curve_data.csv');
+
+            fetch('http://127.0.0.1:5000/process', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                return response.json();
+            })
+            .then(data => {
+                console.log('Response from backend:', data);
+                plotTimeSeries(data.year, data.co2);
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert('An error occurred: ' + error.message);
+            });
+        });
+
+
+        initializeCanvas(); // Initialize the canvas on page load
+    </script>
+</body>
+</html>
