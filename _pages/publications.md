@@ -13,7 +13,7 @@ M. Zhang, <ins>S. Bouabid</ins>, C.S. Ong, S. Flaxman, D. Sejdinovic. _Indirect 
 
 ## Published / In Press
 
-N. Mankovich, <ins>S. Bouabid</ins>, P. Nowack, D. Bassotto, G. Camps-Valls. _Analyzing Climate Scenarios with Dynamic Mode Decomposition with Control_. <br> Environmental Data Science, 2025.
+N. Mankovich, <ins>S. Bouabid</ins>, P. Nowack, D. Bassotto, G. Camps-Valls. _Analyzing Climate Scenarios with Dynamic Mode Decomposition with Control_. <br> Environmental Data Science, 2025. [link](https://doi.org/10.1017/eds.2025.8)
 
 
 <ins>S. Bouabid</ins>, D. Sejdinovic, D. Watson-Parris. _FaIRGP : A Bayesian Energy Balance Model for Surface Temperature Emulation_. <br> Journal of Advances in Modeling Earth Systems, 2024. [link](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2023MS003926)
