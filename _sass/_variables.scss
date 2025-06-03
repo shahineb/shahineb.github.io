@@ -14,7 +14,7 @@ $indent-var                 : 1.3em;
 
 /* system typefaces */
 $serif                      : Georgia, Times, serif;
-$sans-serif                 : "Arial", -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+$sans-serif                 : "Helvetica", -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
 $monospace                  : Monaco, Consolas, "Lucida Console", monospace;
 
 
@@ -22,6 +22,7 @@ $monospace                  : Monaco, Consolas, "Lucida Console", monospace;
 $sans-serif-narrow          : $sans-serif;
 $helvetica                  : Helvetica, "Helvetica Neue", Arial, sans-serif;
 $arial                      : Arial;
+
 
 /* serif typefaces */
 $georgia                    : Georgia, serif;
