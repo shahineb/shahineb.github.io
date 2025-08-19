@@ -7,7 +7,9 @@ author_profile: true
 
 ## Preprints
 
-M. Zhang, <ins>S. Bouabid</ins>, C.S. Ong, S. Flaxman, D. Sejdinovic. _Indirect Query Bayesian Optimization with Integrated Feedback_. <br> ArXiv e-prints:2412.13559, 2024. [link](https://arxiv.org/abs/2412.13559)
+C. Womack, G. Flierl, <ins>S. Bouabid</ins>, A. Souza, P. Giani, S. Eastham, N. Selin  _A framework for assessing and understanding sources of error in Earth System Model emulation _. <br> EGUsphere 10.5194/egusphere-2025-3792, 2025. [link](https://egusphere.copernicus.org/preprints/2025/egusphere-2025-3792/)
+
+M. Zhang, <ins>S. Bouabid</ins>, C.S. Ong, S. Flaxman, D. Sejdinovic. _Indirect Query Bayesian Optimization with Integrated Feedback_. <br> ArXiv e-prints:2412.13559, 2025. [link](https://arxiv.org/abs/2412.13559)
 
 
 
