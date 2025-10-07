@@ -7,9 +7,11 @@ author_profile: true
 
 ## Preprints
 
+<ins>S. Bouabid</ins>, A. Souza, R. Ferrari. _Score-based generative emulation of impact-relevant Earth system model outputs_. <br> ArXiv e-prints:2510.04358, 2025. [link](https://arxiv.org/abs/2510.04358)
+
 C. Womack, G. Flierl, <ins>S. Bouabid</ins>, A. Souza, P. Giani, S. Eastham, N. Selin.  _A framework for assessing and understanding sources of error in Earth System Model emulation_. <br> EGUsphere 10.5194, 2025. [link](https://egusphere.copernicus.org/preprints/2025/egusphere-2025-3792/)
 
-M. Zhang, <ins>S. Bouabid</ins>, C.S. Ong, S. Flaxman, D. Sejdinovic. _Indirect Query Bayesian Optimization with Integrated Feedback_. <br> ArXiv e-prints:2412.13559, 2024. [link](https://arxiv.org/abs/2412.13559)
+M. Zhang, <ins>S. Bouabid</ins>, C. S. Ong, S. Flaxman, D. Sejdinovic. _Indirect Query Bayesian Optimization with Integrated Feedback_. <br> ArXiv e-prints:2412.13559, 2024. [link](https://arxiv.org/abs/2412.13559)
 
 
 ## Published / In Press
