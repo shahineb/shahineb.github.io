@@ -9,12 +9,11 @@ author_profile: true
 
 <ins>S. Bouabid</ins>, A. Souza, R. Ferrari. _Score-based generative emulation of impact-relevant Earth system model outputs_. <br> ArXiv e-prints:2510.04358, 2025. [link](https://arxiv.org/abs/2510.04358)
 
-C. Womack, G. Flierl, <ins>S. Bouabid</ins>, A. Souza, P. Giani, S. Eastham, N. Selin.  _A framework for assessing and understanding sources of error in Earth System Model emulation_. <br> EGUsphere 10.5194, 2025. [link](https://egusphere.copernicus.org/preprints/2025/egusphere-2025-3792/)
-
-M. Zhang, <ins>S. Bouabid</ins>, C. S. Ong, S. Flaxman, D. Sejdinovic. _Indirect Query Bayesian Optimization with Integrated Feedback_. <br> ArXiv e-prints:2412.13559, 2024. [link](https://arxiv.org/abs/2412.13559)
-
 
 ## Published / In Press
+
+C. Womack, G. Flierl, <ins>S. Bouabid</ins>, A. Souza, P. Giani, S. Eastham, N. Selin.  _A theoretical framework to understand sources of error in Earth System Model emulation_. <br> Earth System Dynamics, 2026. [link](https://esd.copernicus.org/articles/17/107/2026/)
+
 
 N. Mankovich, <ins>S. Bouabid</ins>, P. Nowack, D. Bassotto, G. Camps-Valls. _Analyzing Climate Scenarios with Dynamic Mode Decomposition with Control_. <br> Environmental Data Science, 2025. [link](https://doi.org/10.1017/eds.2025.8)
 
@@ -42,6 +41,9 @@ S. L. Chau<sup>*</sup>, <ins>S. Bouabid</ins><sup>*</sup>, D. Sejdinovic. _Decon
 
 
 ## Non-Archival and Workshop Papers
+
+
+M. Zhang, <ins>S. Bouabid</ins>, C. S. Ong, S. Flaxman, D. Sejdinovic. _Indirect Query Bayesian Optimization with Integrated Feedback_. <br> ArXiv e-prints:2412.13559, 2024. [link](https://arxiv.org/abs/2412.13559)
 
 
 T. Reichelt, <ins>S. Bouabid</ins>, L. Ong, D. Watson-Parris, T. Rainforth. _Calibrating Earth System Models with Bayesian Optimal Experimental Design_. <br> ICLR Workshop on Tackling Climate Change with Machine Learning, 2024. [link](https://www.climatechange.ai/papers/iclr2024/74)
