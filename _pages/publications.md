@@ -5,12 +5,11 @@ permalink: /publications/
 author_profile: true
 ---
 
-## Preprints
-
-<ins>S. Bouabid</ins>, A. Souza, R. Ferrari. _Score-based generative emulation of impact-relevant Earth system model outputs_. <br> ArXiv e-prints:2510.04358, 2025. [link](https://arxiv.org/abs/2510.04358)
 
 
 ## Published / In Press
+
+<ins>S. Bouabid</ins>, A. Souza, R. Ferrari. _Score-based generative emulation of impact-relevant Earth system model outputs_. <br> Journal of Advances in Modeling Earth Systems, 2026. [link](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2025MS005558)
 
 C. Womack, G. Flierl, <ins>S. Bouabid</ins>, A. Souza, P. Giani, S. Eastham, N. Selin.  _A theoretical framework to understand sources of error in Earth System Model emulation_. <br> Earth System Dynamics, 2026. [link](https://esd.copernicus.org/articles/17/107/2026/)
 
