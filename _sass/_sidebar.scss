@@ -227,7 +227,8 @@
   }
 
   a {
-    display: block;
+    display: inline;
+    position: relative;
     margin-bottom: 5px;
     padding-right: 5px;
     padding-top: 2px;
@@ -236,8 +237,29 @@
     font-size: $type-size-3;
     text-decoration: none;
 
+    &:before {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      height: 1px;
+      background: mix(#fff, #aa4a16, 10%);
+      width: 100%;
+      -webkit-transition: $global-transition;
+      transition: $global-transition;
+      -webkit-transform: scaleX(0);
+          -ms-transform: scaleX(0);
+              transform: scaleX(0);
+    }
+
     &:hover {
-      text-decoration: underline;
+      color: mix(#fff, #aa4a16, 10%);
+    }
+
+    &:hover:before {
+      -webkit-transform: scaleX(1);
+          -ms-transform: scaleX(1);
+              transform: scaleX(1);
     }
   }
 }
