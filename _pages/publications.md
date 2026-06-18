@@ -5,6 +5,9 @@ permalink: /publications/
 author_profile: true
 ---
 
+## Preprints
+
+C. Womack, <ins>S. Bouabid</ins>, A. Sokolov, P. Salunke, G. Flierl, S. Eastham, N. Selin. _Optimal scenario design for climate emulation_. <br> ArXiv e-prints:2606.19302, 2026. [link](https://arxiv.org/abs/2606.19302)
 
 
 ## Published / In Press
