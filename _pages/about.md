@@ -10,7 +10,7 @@ redirect_from:
 
 # Research ¶
 
-I work on probabilistic climate emulation, how it can help project the effect of human activity on tail weather events, quantify uncertainty across future socioeconomic scenarios, and enable iterative assessment with human systems.
+I work on probabilistic climate emulation, how it can help project the effect of human activity on tail climate risk, quantify uncertainty across future socioeconomic scenarios, and enable iterative assessment with human systems.
 
 I am currently a postdoctoral associate at [EAPS](https://eaps.mit.edu/) working with [Raffaele Ferrari](https://eaps.mit.edu/people/faculty/raffaele-ferrari/) and [Noelle Selin](https://www.selingroup.org/noelle-eckley-selin) as part of the [BC3 MIT Climate Grand Challenge](https://bc3.mit.edu/). I completed my PhD from the [Department of Statistics](https://www.stats.ox.ac.uk/) at the University of Oxford, supervised by [Dino Sejdinovic](https://sejdino.github.io/) as part of the [iMiracli](https://imiracli.web.ox.ac.uk/) Marie Curie innovative training network on aerosol-cloud interactions and machine learning.
 
