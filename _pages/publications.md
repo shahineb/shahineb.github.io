@@ -12,6 +12,8 @@ C. Womack, <ins>S. Bouabid</ins>, A. Sokolov, P. Salunke, G. Flierl, S. Eastham,
 
 ## Published / In Press
 
+<ins>S. Bouabid</ins>, C. Womack, N. Selin, R. Ferrari. _Evidence that end-of-century emulation errors under overshoot remain largely within internal variability in an Earth system model_. <br> Environmental Research Letters, 2026. [link](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2025MS005558)
+
 <ins>S. Bouabid</ins>, A. Souza, R. Ferrari. _Score-based generative emulation of impact-relevant Earth system model outputs_. <br> Journal of Advances in Modeling Earth Systems, 2026. [link](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2025MS005558)
 
 C. Womack, G. Flierl, <ins>S. Bouabid</ins>, A. Souza, P. Giani, S. Eastham, N. Selin.  _A theoretical framework to understand sources of error in Earth System Model emulation_. <br> Earth System Dynamics, 2026. [link](https://esd.copernicus.org/articles/17/107/2026/)

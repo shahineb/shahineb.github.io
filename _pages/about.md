@@ -10,7 +10,7 @@ redirect_from:
 
 # Research ¶
 
-I am interested in the development of climate emulators that support efforts to make climate change projections accessible, improve uncertainty quantification on impacts, and reduce the computational cost of climate simulations.
+I work on probabilistic climate emulation, how it can help project changes in tail events, quantify uncertainty across future scenarios, and enable iterative assessment with human systems.
 
 I am currently a postdoctoral associate at [EAPS](https://eaps.mit.edu/) working with [Raffaele Ferrari](https://eaps.mit.edu/people/faculty/raffaele-ferrari/) and [Noelle Selin](https://www.selingroup.org/noelle-eckley-selin) as part of the [BC3 MIT Climate Grand Challenge](https://bc3.mit.edu/). I completed my PhD from the [Department of Statistics](https://www.stats.ox.ac.uk/) at the University of Oxford, supervised by [Dino Sejdinovic](https://sejdino.github.io/) as part of the [iMiracli](https://imiracli.web.ox.ac.uk/) Marie Curie innovative training network on aerosol-cloud interactions and machine learning.
 
@@ -21,5 +21,4 @@ I am currently a postdoctoral associate at [EAPS](https://eaps.mit.edu/) working
 
 I am also a co-founder of [Nechfate](https://nechfate.ma/) [neʃfɛt], an online media that popularizes climate change, its impacts, and adaptation solutions in Morocco. For non-Arabic speakers, Nechfate refers initially to an aridification but also means a deterioration of economic conditions.
 
-
-Through short, illustrated, and data-driven articles, our goal is to inform readers about Morocco's challenges in terms of Climate Change, Water & Agriculture, and Governance & Societ️y. Come check us out on [Instagram](https://www.instagram.com/nechfate/) and [Linkedin](https://www.linkedin.com/company/91686859/).
+Through short, illustrated, and data-driven articles, our goal is to inform readers about Morocco's challenges in terms of Climate Change, Water & Agriculture, and Governance & Societ️y. Come check us out on [Instagram](https://www.instagram.com/nechfate/) and [Linkedin](https://www.linkedin.com/company/nechfate/).
