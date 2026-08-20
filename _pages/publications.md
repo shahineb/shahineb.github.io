@@ -12,7 +12,7 @@ C. Womack, <ins>S. Bouabid</ins>, A. Sokolov, P. Salunke, G. Flierl, S. Eastham,
 
 ## Published / In Press
 
-<ins>S. Bouabid</ins>, C. Womack, N. Selin, R. Ferrari. _Evidence that end-of-century emulation errors under overshoot remain largely within internal variability in an Earth system model_. <br> Environmental Research Letters, 2026. [link](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2025MS005558)
+<ins>S. Bouabid</ins>, C. Womack, N. Selin, R. Ferrari. _Evidence that end-of-century emulation errors under overshoot remain largely within internal variability in an Earth system model_. <br> Environmental Research Letters, 2026. [link](https://iopscience.iop.org/article/10.1088/1748-9326/ae9c58)
 
 <ins>S. Bouabid</ins>, A. Souza, R. Ferrari. _Score-based generative emulation of impact-relevant Earth system model outputs_. <br> Journal of Advances in Modeling Earth Systems, 2026. [link](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2025MS005558)
 
