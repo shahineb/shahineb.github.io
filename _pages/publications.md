@@ -49,8 +49,7 @@ S. L. Chau<sup>*</sup>, <ins>S. Bouabid</ins><sup>*</sup>, D. Sejdinovic. _Decon
 
 ## Non-Archival and Workshop Papers
 
-
-M. Zhang, <ins>S. Bouabid</ins>, C. S. Ong, S. Flaxman, D. Sejdinovic. _Indirect Query Bayesian Optimization with Integrated Feedback_. <br> ArXiv e-prints:2412.13559, 2024. [link](https://arxiv.org/abs/2412.13559)
+M. Zhang, <ins>S. Bouabid</ins>, C. S. Ong, S. Flaxman, D. Sejdinovic. _Indirect Query Bayesian Optimization with Integrated Feedback_. <br> ICML Workshop on Epistemic Intelligence in Machine Learning, 2026. [link](https://arxiv.org/abs/2412.13559)
 
 
 T. Reichelt, <ins>S. Bouabid</ins>, L. Ong, D. Watson-Parris, T. Rainforth. _Calibrating Earth System Models with Bayesian Optimal Experimental Design_. <br> ICLR Workshop on Tackling Climate Change with Machine Learning, 2024. [link](https://www.climatechange.ai/papers/iclr2024/74)
