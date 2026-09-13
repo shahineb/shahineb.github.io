@@ -7,6 +7,9 @@ author_profile: true
 
 ## Preprints
 
+C. Womack, <ins>S. Bouabid</ins>, X. Gao, J. Morris, A. Schlosser, G. Flierl, N. Selin. _Assessing spatially explicit sensitivities to scenario uncertainty through climate emulation_. <br> ESS Open Archive, 2026. [link](https://essopenarchive.org/doi/full/10.22541/essoar.15008111/v1)
+
+
 C. Womack, <ins>S. Bouabid</ins>, A. Sokolov, P. Salunke, G. Flierl, S. Eastham, N. Selin. _Optimal scenario design for climate emulation_. <br> ArXiv e-prints:2606.19302, 2026. [link](https://arxiv.org/abs/2606.19302)
 
 
