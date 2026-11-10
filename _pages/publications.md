@@ -10,10 +10,9 @@ author_profile: true
 C. Womack, <ins>S. Bouabid</ins>, X. Gao, J. Morris, A. Schlosser, G. Flierl, N. Selin. _Assessing spatially explicit sensitivities to scenario uncertainty through climate emulation_. <br> ESS Open Archive, 2026. [link](https://essopenarchive.org/doi/full/10.22541/essoar.15008111/v1)
 
 
-C. Womack, <ins>S. Bouabid</ins>, A. Sokolov, P. Salunke, G. Flierl, S. Eastham, N. Selin. _Optimal scenario design for climate emulation_. <br> ArXiv e-prints:2606.19302, 2026. [link](https://arxiv.org/abs/2606.19302)
-
-
 ## Published / In Press
+
+C. Womack, <ins>S. Bouabid</ins>, A. Sokolov, P. Salunke, G. Flierl, S. Eastham, N. Selin. _Optimal scenario design for climate emulation_. <br> Proceedings of the National Academy of Sciences, 2026. [link](https://www.pnas.org/doi/10.1073/pnas.2620731123)
 
 <ins>S. Bouabid</ins>, C. Womack, N. Selin, R. Ferrari. _Evidence that end-of-century emulation errors under overshoot remain largely within internal variability in an Earth system model_. <br> Environmental Research Letters, 2026. [link](https://iopscience.iop.org/article/10.1088/1748-9326/ae9c58)
 
