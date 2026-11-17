@@ -7,7 +7,7 @@ author_profile: true
 
 ## Preprints
 
-S. Schöngart, M. Sandstad, C. Womack, N. Schwind, M. Dewey, <ins>S. Bouabid</ins>, N. Meinshausen, V. Kain, D. Hooke, C. Smith, J. Kikstra, A. Högner, E. Byers, C. Jones, E. Burke, R. Langer, C. Mathison, Y. Quilcaille, B. Sanderson, C. Schleussner, N. Selin, M. Windisch, S. Seneviratne. _FASTMIP-CMIP7: A Coordinated Multi-Emulator Ensemble for Rapid, Spatially Resolved Climate Projections under CMIP7 Scenarios_. <br> EGUsphere, 2026. [link](https://egusphere.copernicus.org/preprints/2026/egusphere-2026-6328/)
+S. Schöngart and co-authors including <ins>S. Bouabid</ins>. _FASTMIP-CMIP7: A Coordinated Multi-Emulator Ensemble for Rapid, Spatially Resolved Climate Projections under CMIP7 Scenarios_. <br> EGUsphere, 2026. [link](https://egusphere.copernicus.org/preprints/2026/egusphere-2026-6328/)
 
 C. Womack, <ins>S. Bouabid</ins>, X. Gao, J. Morris, A. Schlosser, G. Flierl, N. Selin. _Assessing spatially explicit sensitivities to scenario uncertainty through climate emulation_. <br> ESS Open Archive, 2026. [link](https://essopenarchive.org/doi/full/10.22541/essoar.15008111/v1)
 
